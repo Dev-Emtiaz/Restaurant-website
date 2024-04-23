@@ -1,0 +1,275 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+.upper-sec{
+    background: url(images/hero-bg.jpg);
+    width: 100%;
+  height: 850px;
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav-link{
+    color:white;
+    font-size: 18px;
+}
+.nav-link:hover{
+    color:#C45211;
+}
+
+.order-online{
+    display: inline-block;
+    color: white;
+    background-color: #F4BA00;
+    padding-left: 42px;
+    padding-right: 42px;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    border-radius: 42px;
+}
+
+.hero-sec{
+    padding-top: 240px;
+}
+
+.discount-sec-area{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.one-cart{
+    background-color: #222831;
+}
+.order-now{
+    display: inline-block;
+    color: white;
+    background-color: #F4BA00;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    border-radius: 42px;
+}
+/* menu-sec start */
+
+.menu-sec{
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.text-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-list-area{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.list-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .ul-area{
+    display: flex;
+  
+} */
+.all-link{
+    background-color: black;
+    color: white !important;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 9px;
+    border-radius: 22px;
+    padding-bottom: 9px;
+    display: inline-block;
+    font-size: 18px;
+    
+}
+.ul-area li a{
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 9px;
+    border-radius: 22px;
+    padding-bottom: 9px;
+    display: inline-block;
+    font-size: 18px;
+    color:black;
+}
+
+/* card-sec-area start */
+
+.card-sec-area{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.cards-content-area{
+    background-color: #222831;
+}
+.img-box{
+    background-color: #F1F2F3;
+    height: 200px;
+    /* border-radius: 10px; */
+    border-bottom-radius: 10px;
+    border-bottom-left-radius: 38px;
+}
+.money-cart-text{
+    padding-left: 24px;
+    padding-bottom: 15px;
+    padding-right: 24px;
+}
+.card-cart{
+    background-color: orange;
+    display: inline-block;
+    border-radius: 70px;
+    padding-right: 14px;
+    padding-bottom: le;
+    padding-left: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    
+    
+}
+.doller{
+    color:white;
+    display: inline-block;
+    border-radius: 70px;
+    padding-right: 14px;
+    padding-bottom: le;
+    padding-left: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+
+/* view-more-sec start */
+.view-more-sec{
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.view-more{
+    background-color: orange;
+    color: white;
+    display: inline-block;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+}
+
+
+/* about-sec-area start */
+
+.about-sec-area{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #222831;
+}
+
+/* book-table sec start */
+
+.book-table-sec{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.all-inputs{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    /* padding-right: 220px; */
+    width: 100%;
+    padding-right: 19px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #00000061;
+}
+
+/* waht-say */
+
+.waht-say{
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+/* slid-card-area start */
+
+.slid-card-area{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.one-slidecard{
+    background-color: #222831;
+}
+.clientpic{
+    border-radius: 50%;
+    border: 5px solid orange;
+}
+
+/* arrow-sec-area start */
+
+.arrow-sec-area{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.arrowdiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aroowdivicon{
+    color: white;
+    background-color: orange;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50%;
+  
+}
+
+/* footer-sec start */
+
+.footer-sec{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    background-color: #222831;
+}
+
+.footatri{
+    display: inline-block;
+    font-weight: 400;
+    color:white;
+    text-align: center; 
+    font-size: 18px;
+}
+.footatri:hover{
+    color:orange;
+}
+
+.last-div{
+    padding-top:50px;
+}
